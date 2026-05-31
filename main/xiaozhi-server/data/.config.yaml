@@ -1,1 +1,19 @@
+selected_module:
+  asr: Qwen3ASRFlash
+  llm: AliLLM
+  tts: EdgeTTS
 
+module:
+  asr:
+    Qwen3ASRFlash:
+      type: qwen3_asr_flash
+      api_key: sk-bb181cdc0ad1437d86f7d3e53e1ff098
+  llm:
+    AliLLM:
+      type: ali_llm
+      model: qwen-flash
+      api_key: sk-bb181cdc0ad1437d86f7d3e53e1ff098
+  tts:
+    EdgeTTS:
+      type: edge_tts
+      voice: zh-CN-XiaoxiaoNeural
